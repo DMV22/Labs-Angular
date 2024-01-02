@@ -1,0 +1,35 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Components1</title>
+  </head>
+
+  <body>
+    <my-app>Завантаження...</my-app>
+    <h3>Підзаголовок</h3>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCKqmF1Le9_gJEa6iyUEmufNZ-hRRe-3no",
+        authDomain: "dyvnychio02laba2-1.firebaseapp.com",
+        projectId: "dyvnychio02laba2-1",
+        storageBucket: "dyvnychio02laba2-1.appspot.com",
+        messagingSenderId: "458986948827",
+        appId: "1:458986948827:web:c7530c2ff472bb37fa24fe",
+        measurementId: "G-DFKRQQME7P",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  <script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="main.js" type="module"></script>
+
+</body></html>
